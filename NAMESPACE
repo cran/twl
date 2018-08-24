@@ -1,0 +1,14 @@
+
+export(TWLsample)
+export(cross_dat_analy)
+export(pairwise_clus)
+export(post_analy_clus)
+export(post_analy_cor)
+
+importFrom("grDevices", "dev.off", "pdf")
+importFrom("graphics", "par", "plot")
+importFrom("stats", "as.dist", "hclust", "na.omit", "qnorm","rect.hclust", "rmultinom", "rnorm", "sd")
+importFrom("utils", "head", "tail")
+importFrom("corrplot", "corrplot")
+importFrom("MCMCpack", "xpnd", "vech", "rdirichlet")
+import("data.table")
